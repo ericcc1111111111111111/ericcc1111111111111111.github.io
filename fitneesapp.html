@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="輕鬆減肥水，快速燃燒脂肪，改善新陳代謝，天然成分，無副作用。">
+    <title>減肥水 - 產品網頁</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* 頁首 */
+        header {
+            background-color: #1e7e34;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        /* 主橫幅區 */
+        .hero {
+            background-image: url('https://via.placeholder.com/1600x600.png?text=減肥水+Hero+Image'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .cta-btn {
+            background-color: #ff7f50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #ff6a3d;
+        }
+
+        /* 產品特色區 */
+        .features {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .features h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .features ul li {
+            font-size: 18px;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .features ul li::before {
+            content: '✔';
+            color: #28a745;
+            margin-right: 10px;
+        }
+
+        /* 客戶評價區 */
+        .testimonials {
+            padding: 50px 20px;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .testimonial-item {
+            margin: 30px 0;
+            font-style: italic;
+        }
+
+        .testimonial-item p {
+            font-size: 18px;
+        }
+
+        .testimonial-item .name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* 常見問題區 */
+        .faq {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .faq h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .faq p {
+            font-size: 18px;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        /* 行動呼籲區 */
+        .cta-section {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .cta-section p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cta-btn-lg {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px 40px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn-lg:hover {
+            background-color: #ff6a3d;
+        }
+
+        /* 購物車區 */
+        .cart {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .cart h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .cart .item {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .cart .total {
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 30px;
+        }
+
+        /* 頁尾 */
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>減肥水</h1>
+</header>
+
+<section class="hero">
+    <h2>每天一瓶，輕鬆減重，活力滿滿</h2>
+    <a href="#more-info" class="cta-btn">了解更多</a>
+</section>
+
+<section class="features">
+    <h2>產品特色</h2>
+    <p>這款減肥水含有天然成分，幫助加速脂肪燃燒、抑制食慾、改善新陳代謝。</p>
+    <ul>
+        <li>快速燃燒脂肪</li>
+        <li>抑制食慾，減少暴飲暴食</li>
+        <li>天然成分，無副作用</li>
+        <li>改善新陳代謝，幫助健康減重</li>
+    </ul>
+</section>
+
+<section class="testimonials">
+    <h2>客戶評價</h2>
+    <div class="testimonial-item">
+        <p>"用了這款減肥水後，我成功減重5公斤，感覺更加輕盈！"</p>
+        <p class="name">— 張小姐</p>
+    </div>
+    <div class="testimonial-item">
+        <p>"每天一瓶，食慾控制得很好，效果明顯。"</p>
+        <p class="name">— 李先生</p>
+    </div>
+</section>
+
+<section class="faq">
+    <h2>常見問題</h2>
+    <p><strong>Q: 這款減肥水有副作用嗎？</strong></p>
+    <p>A: 減肥水使用天然植物成分，無副作用。</p>
+    <p><strong>Q: 如何使用這款減肥水？</strong></p>
+    <p>A: 每天早上空腹飲用一瓶，或依照需求在餐前或餐後飲用。</p>
+    <p><strong>Q: 我需要配合運動嗎？</strong></p>
+    <p>A: 配合運動和健康飲食，效果會更佳，但即使不運動，產品也能提供幫助。</p>
+</section>
+
+<section id="more-info" class="cta-section">
+    <h2>開始你的減肥之旅！</h2>
+    <p>立即訂購，享受首單 20% 優惠，輕鬆達成理想體型。</p>
+    <a href="order.html" class="cta-btn-lg">立即購買</a>
+</section>
+
+<section class="cart">
+    <h2>購物車</h2>
+    <div class="item">
+        <p>減肥水 - 1瓶</p>
+        <p>價格：$199</p>
+    </div>
+    <div class="total">
+        <p>總金額：$199</p>
+    </div>
+    <a href="checkout.html" class="cta-btn">結帳</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 減肥水公司</p>
+    <div class="footer-links">
+        <a href="#">聯繫我們</a>
+        <a href="#">隱私政策</a>
+        <a href="#">使用條款</a>
+    </div>
+</footer>
+
+</body>
+</html>
